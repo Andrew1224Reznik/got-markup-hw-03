@@ -111,7 +111,7 @@ h5 {
   background: #2e2f42;
 }
 .hero-tittle {
-  padding: 188px 316px 292px;
+  padding: 188px 316px 0px 316px;
   width: 496px;
   height: 120px;
   font-weight: 700;
@@ -123,7 +123,16 @@ h5 {
   color: #fff;
 }
 
+.button-order {
+  display: block;
+  padding: 48px 480px 188px 480px;
+}
+
 .hero-btn {
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  border: none;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -144,8 +153,14 @@ h5 {
 
 /*-----Selection-about-------*/
 
+.about {
+  padding: 120px 0px 120px 0px;
+}
+
 .about-list {
   background: #fff;
+  display: inline-flex;
+  gap: 24px;
 }
 
 .about-item {
