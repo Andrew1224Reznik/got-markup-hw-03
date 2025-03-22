@@ -275,6 +275,7 @@ h5 {
 .ourportfolio-list {
   background-color: #ffffff;
 }
+
 .road {
   display: inline-flex;
   gap: 24px;
@@ -282,7 +283,9 @@ h5 {
 }
 
 .ourportfolio-item {
+  border: 1px solid #e7e9fc;
 }
+
 .ourportfolio-image {
 }
 
@@ -316,6 +319,16 @@ h5 {
 
 .page-footer {
   background-color: #2e2f42;
+}
+
+.footer-logo {
+  padding: 24px 0;
+  margin-right: 76px;
+}
+
+.footer-padding {
+  display: block;
+  padding-top: 75px;
 }
 
 .footer-logo .logo-part {
