@@ -148,12 +148,12 @@ h5 {
   background: #4d5ae5;
   color: #fff;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
   background: #404bbf;
-  cursor: pointer;
 }
 
 /*-------Hero---------*/
@@ -164,14 +164,27 @@ h5 {
   padding: 120px 0px 120px 0px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
 .about-list {
-  width: 1128px;
   background: #fff;
-  display: inline-flex;
+  display: flex;
   gap: 24px;
 }
 
 .about-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .about-subtitle {
