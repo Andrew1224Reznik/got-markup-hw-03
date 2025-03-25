@@ -236,6 +236,7 @@ h5 {
 
 .ourteam-item {
   background-color: #ffffff;
+  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -274,6 +275,7 @@ h5 {
 
 .ourportfolio {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .ourportfolio-title {
@@ -284,20 +286,23 @@ h5 {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .ourportfolio-list {
   background-color: #ffffff;
 }
 
 .road {
-  display: inline-flex;
-  gap: 24px;
+  display: flex;
   padding-bottom: 120px;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .ourportfolio-item {
   border: 1px solid #e7e9fc;
+  width: calc((100% - 48px) / 3);
 }
 
 .ourportfolio-image {
