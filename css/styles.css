@@ -290,11 +290,7 @@ h5 {
 }
 .ourportfolio-list {
   background-color: #ffffff;
-}
-
-.road {
   display: flex;
-  padding-bottom: 120px;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
