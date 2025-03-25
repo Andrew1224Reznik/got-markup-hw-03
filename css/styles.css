@@ -190,7 +190,7 @@ h5 {
 .about-subtitle {
   font-weight: 500;
   font-size: 20px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 
   /* line-height: 24px; */
   line-height: 1.2;
@@ -215,6 +215,7 @@ h5 {
 .ourteam {
   background-color: #f4f4fd;
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .ourteam-title {
@@ -226,16 +227,19 @@ h5 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .ourteam-list {
-  display: inline-flex;
+  display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
+
 .ourteam-item {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
+
 .ourteam-image {
 }
 
