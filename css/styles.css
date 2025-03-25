@@ -236,7 +236,6 @@ h5 {
 
 .ourteam-item {
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -244,15 +243,12 @@ h5 {
 }
 
 .ourteam-padding {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 32px 0;
 }
 .ourteam-subtitle {
   font-weight: 500;
   font-size: 20px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 
   /* line-height: 24px; */
   line-height: 1.2;
